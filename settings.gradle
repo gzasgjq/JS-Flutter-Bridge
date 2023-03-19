@@ -1,0 +1,31 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven {
+            url "https://maven.aliyun.com/repository/google"
+        }
+        maven {
+            url "https://maven.aliyun.com/repository/public"
+        }
+        maven {
+            url "https://maven.aliyun.com/repository/gradle-plugin"
+        }
+        maven { url 'https://www.jitpack.io' }
+        maven {
+            url 'https://storage.googleapis.com/download.flutter.io'
+        }
+//        google()
+//        mavenCentral()
+    }
+}
+
+rootProject.name = "JS-Flutter-Bridge"
+include ':app'
+include ':bridge'
+//setBinding(new Binding([gradle: this]))
+//evaluate(new File(
+//        settingsDir,
+//        'flutter_module/.android/include_flutter.groovy'
+//))
+//include ':flutter_module'
+//project(':flutter_module').projectDir = new File('flutter_module')

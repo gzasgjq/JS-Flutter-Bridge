@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".pages.MainActivity">
+
+    <Button
+        android:id="@+id/button_flutter_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openFlutter"
+        android:text="打开Flutter页面mainPage" />
+
+    <Button
+        android:id="@+id/button_flutter_sample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openFlutterSample"
+        android:text="打开Flutter页面samplePage"/>
+
+    <Button
+        android:id="@+id/button_flutter_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openWeb"
+        android:text="打开Web页面" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
